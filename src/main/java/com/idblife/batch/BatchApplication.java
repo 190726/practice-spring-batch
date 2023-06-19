@@ -14,7 +14,7 @@ import java.util.Locale;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
-@EnableBatchProcessing
+@EnableBatchProcessing // 배치 기능 활성화 어노테이션
 @SpringBootApplication
 public class BatchApplication {
 
