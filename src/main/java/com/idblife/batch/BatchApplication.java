@@ -9,11 +9,13 @@ import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.Locale;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
+@EnableScheduling
 @EnableBatchProcessing // 배치 기능 활성화 어노테이션
 @SpringBootApplication
 public class BatchApplication {
